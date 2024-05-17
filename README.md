@@ -62,3 +62,5 @@ map:person_001 dct:contributor foaf:Person ;
     schema:description "This is a mapping definition written in the RML syntax, which is used to map CSV data into RDF (Resource Description Framework) format.".
 
 ```
+### Contact
+https://github.com/oeg-upm/rmldoc
