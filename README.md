@@ -10,11 +10,6 @@ RMLdoc is a tool designed to simplify the process of generating documentation of
 - [Contact](#contact)
 
 
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
 
 ## Installation
 
@@ -28,7 +23,7 @@ cd rmldoc
 # Install the package
 pip install -e .
 ```
-Usage
+## Usage
 
 ```commandline
 usage: rmldoc [-h] -i INPUT_MAPPING_PATH [-o OUTPUT_PATH]
