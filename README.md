@@ -4,9 +4,10 @@ RMLdoc is a tool designed to simplify the process of generating documentation of
 
 ## Table of Contents
 
-- [Features](#features)
+
 - [Installation](#installation)
 - [Usage](#usage)
+- [RMLdoc Metadata](#rmldoc-metadata)
 - [Contact](#contact)
 
 
