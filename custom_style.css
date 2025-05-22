@@ -1,0 +1,82 @@
+/* General Body Styles */
+body {
+  font-family: 'Droid Serif', serif;
+  font-size: 18px; /* Slightly larger base font size */
+  line-height: 1.6;
+  color: #333; /* Dark grey for text */
+  background-color: #fdfdfd; /* Very light grey background */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #007bff; /* A modern blue for headings */
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+
+/* Links */
+a {
+  color: #0056b3; /* A darker blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+  display: block; /* Helps with margin control */
+  margin: 20px auto; /* Center images by default */
+  border: 1px solid #ddd; /* Light grey border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 5px; /* Some spacing between image and border */
+  background-color: #fff; /* White background for the padding area */
+}
+
+/* Code Blocks and Inline Code */
+.remark-code, pre > code { /* remark.js uses .remark-code for blocks, pre > code is a common fallback */
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #f0f0f0; /* Light grey background for code blocks */
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto; /* Allow horizontal scrolling for long code lines */
+  display: block; /* Ensure it takes full width */
+}
+
+.remark-inline-code { /* For inline code snippets */
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #e9ecef; /* Slightly different background for inline code */
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em;
+  color: #c7254e; /* A reddish color for inline code, common practice */
+}
+
+/* Slide specific adjustments for remark.js */
+.remark-slide-content {
+  padding: 20px 40px; /* Add some padding around slide content */
+}
+
+/* Center and middle alignment (if remark.js classes need help) */
+.center {
+  text-align: center;
+}
+.middle {
+  vertical-align: middle;
+}
+
+/* Remove the default remark.js slide number */
+.remark-slide-number {
+  display: none;
+}
